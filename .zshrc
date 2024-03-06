@@ -51,3 +51,4 @@ unset __conda_setup
 export PATH="$PATH:/home/santiago/.local/bin"
 
 eval "$(atuin init zsh --disable-up-arrow)"
+eval "$(starship init zsh)"
