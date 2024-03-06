@@ -1,3 +1,14 @@
+plugins=(
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+    colored-man-pages
+    zsh-navigation-tools
+)
+
+export ZSH="$HOME/.oh-my-zsh"
+source $ZSH/oh-my-zsh.sh
+
+
 ###########################################
 #                SETTINGS                 #
 ###########################################
