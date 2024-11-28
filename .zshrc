@@ -39,6 +39,7 @@ alias clang-tidy='noglob clang-tidy'
 bindkey -v
 
 # Env. variables
+export PATH=$PATH:/usr/local/go/bin
 export PATH=/home/santiago/.Programs/cmake/cmake/bin:$PATH
 CONDA_PATH=$HOME/.miniconda3
 
