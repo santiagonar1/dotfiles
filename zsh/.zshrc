@@ -42,6 +42,7 @@ bindkey -v
 export PATH=$PATH:/usr/local/go/bin
 export PATH=/home/santiago/.Programs/cmake/cmake/bin:$PATH
 CONDA_PATH=$HOME/.miniconda3
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
