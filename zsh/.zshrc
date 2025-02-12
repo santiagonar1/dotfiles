@@ -58,6 +58,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+. "$HOME/.atuin/bin/env"
 
 # Created by `userpath` on 2022-12-11 09:58:30
 export PATH="$PATH:/home/santiago/.local/bin"

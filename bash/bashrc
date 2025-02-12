@@ -119,5 +119,7 @@ source "$HOME/.cargo/env"
 
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 
+. "$HOME/.atuin/bin/env"
+
 eval "$(atuin init bash --disable-up-arrow)"
 eval "$(starship init bash)"
