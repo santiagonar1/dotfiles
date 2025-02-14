@@ -1,4 +1,7 @@
 set number
 set autoindent
 
+autocmd FileType markdown setlocal spell
+autocmd FileType gitcommit setlocal spell
+
 syntax on
