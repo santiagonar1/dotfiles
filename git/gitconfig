@@ -14,3 +14,5 @@
 	ui = auto
 [tag]
 	sort = version:refname
+[diff]
+	algorithm = histogram
