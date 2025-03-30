@@ -17,3 +17,4 @@
 [diff]
 	algorithm = histogram
 	colorMoved = plain
+	renames = true
