@@ -18,3 +18,5 @@
 	algorithm = histogram
 	colorMoved = plain
 	renames = true
+[push]
+	autoSetupRemote = true
