@@ -12,3 +12,5 @@
 	sort = -committerdate
 [column]
 	ui = auto
+[tag]
+	sort = version:refname
