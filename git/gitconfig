@@ -22,3 +22,4 @@
 	autoSetupRemote = true
 [fetch]
 	prune = true
+	all = true
