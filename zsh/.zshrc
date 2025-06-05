@@ -13,6 +13,9 @@ source $ZSH/oh-my-zsh.sh
 #                SETTINGS                 #
 ###########################################
 
+# Get the operating system name
+OS=$(uname -s)
+
 # Export HOSTNAME variable (compatibility with bash)
 export HOSTNAME=$(hostname)
 
@@ -39,9 +42,15 @@ alias clang-tidy='noglob clang-tidy'
 bindkey -v
 
 # Env. variables
+if [ "$OS" = "Linux" ]; then
+    export PATH=$HOME/.programs/cmake/cmake/bin:$PATH
+elif [ "$OS" = "Darwin" ]; then
+    export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+else
+  echo "WARNING: This is an unknown operating system: $OS"
+fi
+
 export PATH=$PATH:/usr/local/go/bin
-export PATH=$HOME/.programs/cmake/cmake/bin:$PATH
-export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
 if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
     export TERM=xterm-256color
