@@ -40,7 +40,7 @@ bindkey -v
 
 # Env. variables
 export PATH=$PATH:/usr/local/go/bin
-export PATH=/home/santiago/.Programs/cmake/cmake/bin:$PATH
+export PATH=$HOME/.programs/cmake/cmake/bin:$PATH
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 
 if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
