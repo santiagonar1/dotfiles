@@ -115,7 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-source "$HOME/.cargo/env"
 
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 
@@ -123,3 +122,4 @@ source "$HOME/.cargo/env"
 
 eval "$(atuin init bash --disable-up-arrow)"
 eval "$(starship init bash)"
+. "$HOME/.cargo/env"
