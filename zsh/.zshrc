@@ -44,6 +44,7 @@ bindkey -v
 # Env. variables
 if [ "$OS" = "Linux" ]; then
     export PATH=$HOME/.programs/cmake/cmake/bin:$PATH
+    export PATH="$PATH:/home/$USER/.local/bin"
 elif [ "$OS" = "Darwin" ]; then
     export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 else
@@ -58,8 +59,6 @@ fi
 
 . "$HOME/.atuin/bin/env"
 
-# Created by `userpath` on 2022-12-11 09:58:30
-export PATH="$PATH:/home/santiago/.local/bin"
 
 eval "$(atuin init zsh --disable-up-arrow)"
 eval "$(starship init zsh)"
