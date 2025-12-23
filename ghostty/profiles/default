@@ -1,1 +1,2 @@
 theme = "Gruvbox Dark"
+macos-titlebar-style = tabs
