@@ -1,3 +1,4 @@
 macos-titlebar-style = tabs
+shell-integration-features = ssh-terminfo,ssh-env
 
 config-file = profiles/default
