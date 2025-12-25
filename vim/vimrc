@@ -7,3 +7,4 @@ autocmd FileType gitcommit setlocal spell
 syntax on
 
 inoremap jk <Esc>
+
